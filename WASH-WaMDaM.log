@@ -1,0 +1,87 @@
+
+--- Job WASH-WaMDaM.gms Start 01/21/19 06:30:05 24.2.3 r46072 WEX-WEI x86_64/MS Windows
+GAMS 24.2.3   Copyright (C) 1987-2014 GAMS Development. All rights reserved
+Licensee: Utah Water Research Laboratory (5 user)        G140130:1517AV-GEN
+          Utah State University                                      DC7087
+          License for teaching and research at degree granting institutions
+--- Starting compilation
+--- WASH-WaMDaM.gms(221) 2 Mb
+--- call GDXXRW.EXE input=WASH_1yr_InputData_increase.xlsx output=WASH-Data-increase.gdx  Set=t rng=Month!A1:A12 Rdim=1 Set=s rng=SubInd!A1:A100 Rdim=1 set=y rng=FishSpp!A1:A10 Rdim=1 set=n rng=VegSpp!A1:A10 Rdim=1 Set=j rng=Nodes!A1:A100 Rdim=1 Set=wt rn
+
+GDXXRW           24.2.3 r46072 Released May 22, 2014 VS8 x86/MS Windows       
+Input file : C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH_1yr_InputData_increase.xlsx
+Output file: C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-Data-increase.gdx
+Total time = 780 Ms
+--- WASH-WaMDaM.gms(228) 2 Mb
+--- GDXin=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-Data-increase.gdx
+--- WASH-WaMDaM.gms(1196) 3 Mb
+--- Starting execution: elapsed 0:00:00.927
+--- WASH-WaMDaM.gms(527) 4 Mb
+--- Generating NLP model WASH
+--- WASH-WaMDaM.gms(557) 8 Mb
+---   5,880 rows  5,005 columns  12,097 non-zeroes
+---   6,734 nl-code  1,685 nl-non-zeroes
+--- WASH-WaMDaM.gms(557) 6 Mb
+--- Executing CONOPT: elapsed 0:00:01.019
+CONOPT 3         24.2.3 r46072 Released May 22, 2014 WEI x86_64/MS Windows    
+ 
+ 
+    C O N O P T 3   version 3.15P
+    Copyright (C)   ARKI Consulting and Development A/S
+                    Bagsvaerdvej 246 A
+                    DK-2880 Bagsvaerd, Denmark
+ 
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      0   0        7.4579577864E+03 (Input point)
+                                Pre-triangular equations:      271
+                                Post-triangular equations:    3281
+      1   0        6.7068428750E+03 (After pre-processing)
+      2   0        6.0462429461E+02 (After scaling)
+      3   0    80  7.9068490683E+01               1.0E+00      F  T
+      4   1    78  7.8189409471E+01 4.7E+00     2 1.0E+00    3 T  T
+      5   1    70  7.5318282168E+01 4.5E+00    26 1.0E+00    8 T  T
+      6   1    60  6.7376260235E+01 1.7E+00    18 1.0E+00   13 T  T
+      7   1    44  5.6930392117E+01 1.5E+00    18 1.0E+00   18 T  T
+ 
+   Iter Phase Ninf   Infeasibility   RGmax    NSB   Step InItr MX OK
+      8   1    31  3.9852420786E+01 4.0E+00    41 1.0E+00   23 T  T
+      9   1    15  2.1671477480E+01 2.0E+00    30 1.0E+00   28 T  T
+     10   1     4  4.0525058160E+00 2.6E-01    42 1.0E+00   33 T  T
+     11   1     1  1.0965570584E-01 1.4E-01    12 1.0E+00   11 T  T
+ 
+ ** Feasible solution. Value of objective =    436.068606334
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+     12   3        4.3629094540E+02 3.1E-01    16 1.0E+00   13 T  T
+     13   3        4.3775710484E+02 3.1E-01    31 1.0E+00   18 T  T
+     14   3        4.5265204119E+02 1.3E+00    66 1.0E+00   23 T  T
+     15   3        4.5490778042E+02 3.3E-01    66 1.0E+00   27 T  T
+     16   3        4.6307304916E+02 2.1E+00    35 1.0E+00   28 T  T
+     17   3        4.7732023972E+02 3.1E+00    28 1.0E+00   31 T  T
+     18   3        4.8355650419E+02 1.1E+00    40 1.0E+00   35 T  T
+     19   3        4.9115280476E+02 9.0E-01    35 1.0E+00   37 T  T
+     20   3        4.9121196278E+02 6.2E-02    13 6.2E-01    7 F  T
+     21   3        4.9121285438E+02 4.0E-03    13 2.9E-01    7 F  T
+ 
+   Iter Phase Ninf     Objective     RGmax    NSB   Step InItr MX OK
+     22   3        4.9121305447E+02 4.8E-03    13 1.4E+00      T  T
+     23   3        4.9121310697E+02 4.8E-03     6 1.6E+00      T  T
+     24   3        4.9121383725E+02 4.8E-03     5 5.4E+01      F  T
+     25   3        4.9121444295E+02 1.0E-03     5 6.7E+02      F  T
+     26   4        4.9121462309E+02 2.1E-03     5 8.1E-02      F  T
+     27   4        4.9121469348E+02 2.7E-04   329 1.0E+00    5 F  T
+     28   4        4.9121470285E+02 1.2E-04   329 1.0E+00    2 F  T
+     29   4        4.9121470291E+02 9.2E-06   329 1.0E+00    1 F  T
+     30   4        4.9121470291E+02 7.1E-08   329
+ 
+ ** Optimal solution. Reduced gradient less than tolerance.
+ 
+--- Restarting execution
+--- WASH-WaMDaM.gms(557) 3 Mb
+--- Reading solution for model WASH
+--- WASH-WaMDaM.gms(557) 3 Mb
+--- Executing after solve: elapsed 0:00:01.376
+--- WASH-WaMDaM.gms(596) 4 Mb
+*** Status: Normal completion
+--- Job WASH-WaMDaM.gms Stop 01/21/19 06:30:07 elapsed 0:00:01.395

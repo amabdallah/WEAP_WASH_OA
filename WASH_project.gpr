@@ -1,0 +1,936 @@
+[PROJECT]
+
+[RP:WASH_SEP2016]
+1=
+
+[RP:WASH_FINAL]
+1=
+
+[SOLVERS]
+CNS=CONOPT
+DNLP=CONOPT
+LP=CONOPT
+NLP=CONOPT
+QCP=CONOPT
+RMINLP=CONOPT
+RMIP=CONOPT
+RMIQCP=CONOPT
+
+[RP:FINAL]
+1=
+
+[GDXDISP: A Var 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ11b Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ12 Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ12a Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ13 Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ14 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ15 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ16 Equ 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ1a Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ2 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ2a Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ2b Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ11a Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ11 Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ10 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ1 Equ 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: envSiteExist Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: DValue Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: dreqBase Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: dReq Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: DiversionExist Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: dem Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: dcap Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: D Var 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: cst Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: cons Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: CMax Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: C Var 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: b Par 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: aw Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Z Var 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: wf_par_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ3 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ3a Equ 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ4 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ4a Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ5 Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ5a Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ5b Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ5c Equ 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ5d Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ6 Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ7 Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ7a Equ 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ8 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: EQ9 Equ 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: evap Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: y Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: wsi_par_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: wsi_par Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: wght Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: wf_par Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: WetlandsExist Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: v Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: t Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: SimLink Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: sf_par_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: sf_par Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: s Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: run Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: rsi_par Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: rsi_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: returnFlowExist Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: reachGain Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RA_par_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RA_par Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Qsim Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Qrun Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Qmin Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Qmax Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: QLoop Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: NodeNotHeadwater Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: NodeNotDemandSite Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: n Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: minstor Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: minrv Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: maxstor Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: maxrv Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: MassBalanceNodes Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: lss Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: lng Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: LinktoReservoir Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: LinkOutReservoir Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: LinkID Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: LinkExistSim Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Linkexist Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: linkEvap Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: j Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: instreamReq Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: InitSTOR Par 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: InitD Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: InitC Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: g Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: fci_par Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: fci_indx Set 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: STOR Var 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RSI Var 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RR Var 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RA Var 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: RV Var 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Qrun2 Alias 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Q Var 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Mm3mo_cfs Par 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Mm3_acft Par 0]
+PlaneDim=0
+RowDim=0
+Squeeze=1
+Order=
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: minrv Par 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: k Alias 1]
+PlaneDim=0
+RowDim=1
+Squeeze=1
+Order=1
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: Ind Var 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: h Par 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: F Var 3]
+PlaneDim=0
+RowDim=3
+Squeeze=1
+Order=1,2,3,4
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: FCI Var 4]
+PlaneDim=0
+RowDim=4
+Squeeze=1
+Order=1,2,3,4,5
+Decim=7
+PlaneRownr=-1
+
+[GDXDISP: FlowMarginal Par 2]
+PlaneDim=0
+RowDim=2
+Squeeze=1
+Order=1,2
+Decim=7
+PlaneRownr=-1
+
+[RP:TRNSPORT]
+1=
+
+[RP:WASH-CEE6410]
+1=
+
+[RP:WASH-WAMDAM]
+1=
+
+[MRUFILES]
+1=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\trnsport.lst
+2=C:\GAMS\win64\24.2\docs\bigdocs\gams2002\dosbox.gms
+3=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-solution.gdx
+4=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-Data.gdx
+5=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\Test\_gams_py_gdb0.gdx
+6=C:\Users\Adel\Documents\GitHub\WaMDaM_Wizard_1.04\src\controller\WASH\Extract_WASH_GDX_ToWaMDaM\WASH-Data.gdx
+
+[OPENWINDOW_1]
+FILE0=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-CEE6410.lst
+FILE1=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-WaMDaM.gms
+FILE2=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-WaMDaM.lst
+FILE3=C:\Users\Adel\Documents\GitHub\WEAP_WASH_OA\WASH-WaMDaM.gms
+MAXIM=1
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=400
